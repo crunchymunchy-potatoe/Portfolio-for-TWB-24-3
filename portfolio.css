@@ -62,6 +62,9 @@ font-family: "Google Sans Flex", sans-serif;
     background-color: black;
     color: white;
 }
+span {
+    font-weight: bold;
+}
 
 /* ----home_animations----- */
 .home > button {
@@ -70,3 +73,5 @@ font-family: "Google Sans Flex", sans-serif;
 .home > button:hover {
     padding: 1.35rem 15rem;
 }
+
+/* -----aboutme----- */
