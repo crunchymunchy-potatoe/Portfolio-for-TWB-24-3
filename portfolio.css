@@ -74,4 +74,9 @@ span {
     padding: 1.35rem 15rem;
 }
 
-/* -----aboutme----- */
+/*main contacts*/
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
