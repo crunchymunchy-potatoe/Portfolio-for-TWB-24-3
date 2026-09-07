@@ -81,6 +81,7 @@ span {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 15rem;
 }
 
 .contacts > form {
@@ -121,10 +122,33 @@ span {
     overflow: hidden;
     border: 2px;
     position: relative;
+    margin-right: 3rem;
 }
 
 .c_img > img {
     display: block;
     width: 100%;
+    border-radius: 1rem;
     height: 100%;
+}
+.contacts form button {
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+}
+
+/*contacts-animations*/
+
+.contacts form button{
+    transition: all 0.35s ease-in-out;
+}
+
+.contacts form button:hover {
+    padding: 1.35rem 15rem;
 }
