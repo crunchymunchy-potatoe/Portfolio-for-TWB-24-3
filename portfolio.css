@@ -1,3 +1,18 @@
+@keyframes sway {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(3deg);
+    }
+    75% {
+        transform: rotate(-3deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
@@ -108,6 +123,13 @@ body {
     overflow: hidden;
     border-radius: 4px;
     flex-shrink: 0;
+    transform-origin: top center;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.15);
+    background-color: #f0f0f0;
+}
+
+.c_img:hover {
+    animation: sway 3s ease-in-out infinite;
 }
 
 .c_img > img {
@@ -115,6 +137,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: 12px black;
 }
 
 .contacts-content {
