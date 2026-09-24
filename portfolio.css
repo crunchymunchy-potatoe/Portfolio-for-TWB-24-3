@@ -204,6 +204,7 @@ body {
 .input-field input:focus {
     outline: none;
     border-bottom-color: #555;
+    background-color: wheat;
 }
 
 /* Pill submit button */
