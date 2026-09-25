@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -20,11 +21,11 @@
 
     <main>
 
-        <div class="showcase-title">
+        <div class="showcase-title" data-aos="zoom-in" data-aos-easing="ease-in-out">
             <h1>My Projects</h1>
             <p>available for small projects and photoshoots</p>
         </div>
-        <div class="showcase">
+        <div class="showcase" data-aos="fade-up" data-aos-easing="ease-in-out">
            <div class="joe">
               <img src="/assets/joe's.jpg" alt="">
               <h4>Joe's Wedding</h4>
@@ -32,5 +33,9 @@
            </div>
         </div>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -95,6 +95,10 @@ li > a {
     color: white;
     border-radius: 50px;
 }
+.home > button > a {
+    text-decoration: none;
+    color: white;
+}
 span {
     font-weight: bold;
 }

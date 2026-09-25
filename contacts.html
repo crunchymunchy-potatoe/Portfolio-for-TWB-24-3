@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
-
     <link rel="stylesheet" href="portfolio.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -21,13 +21,13 @@
 
     <main>
         <div class="contacts-container">
-            <div class="c_img">
+            <div class="c_img" data-aos="fade-down-right" data-aos-easing="ease-in-out">
                 <img src="assets/contacts_img.jpg" alt="contacts">
             </div>
 
             <div class="contacts-content">
 
-                <div class="contacts-frame">
+                <div class="contacts-frame" data-aos="fade-left" data-aos-easing="ease-in-out">
                     <form action="">
                         <div class="input-field">
                             <label>Full Name</label>
@@ -58,5 +58,9 @@
             </div>
         </div>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

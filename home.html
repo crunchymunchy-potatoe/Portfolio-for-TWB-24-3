@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -20,11 +21,15 @@
 
     <main>
         <div class="home">
-            <h1>Dhira Suhitadarma</h1>
-            <p>available for small projects and photoshoots</p>
-            <h4>I'm a student learning coding, and photography. I'm currently a student at <span>GENTA SARASWATI</span></h4>
-            <button>Say Hello</button>
+            <h1 data-aos="zoom-in-up" data-aos-easing="ease-in-out">Dhira Suhitadarma</h1>
+            <p data-aos="fade-right" data-aos-duration="4000" data-aos-easing="ease-in-out">available for small projects and photoshoots</p>
+            <h4 data-aos="fade-left" data-aos-duration="4000" data-aos-easing="ease-in-out">I'm a student learning coding, and photography. I'm currently a student at <span>GENTA SARASWATI</span></h4>
+            <button data-aos="flip-up" data-aos-duration="4000" data-aos-easing="ease-in-out" href="/contacts.html"><a href="/contacts.html">Say Hello</a></button>
         </div>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
