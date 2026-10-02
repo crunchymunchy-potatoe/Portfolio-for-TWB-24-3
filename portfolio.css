@@ -408,3 +408,57 @@ body {
 .joe h4 {
     font-size: 30px;
 }
+
+@media (max-width: 500px) {
+
+    /* home responsive */
+    .home > h1 {
+        font-size: 3rem;
+        margin-bottom: -1rem;
+        margin-top: -1rem;
+    }
+    .home > p {
+        font-size: 0.7rem;
+    }
+    .home > h4 {
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+    .home > button {
+      scale: 0.8;
+    }
+
+    /* project showcase responsive */
+    .joe {
+        margin-left: 0;
+        scale: 0.8;
+    }
+
+    /* about me responsive */
+    .aboutme > * {
+        text-align: center;
+        margin-left: -6rem;
+    }
+    .aboutme > h1 {
+        font-size: 1.5rem;
+    }
+    .aboutme > p {
+        font-size: 0.8rem;
+    }
+    .aboutme > h4 {
+        font-size: 0.8rem;
+    }
+
+    /*contacts */
+    .contacts-container {
+        display: block;
+        margin-left: -4rem;
+    }
+    .contacts-frame {
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts-detail {
+        font-size: 0.8rem;
+    }
+}
