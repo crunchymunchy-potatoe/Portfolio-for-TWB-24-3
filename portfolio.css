@@ -409,6 +409,10 @@ body {
     font-size: 30px;
 }
 
+.joe:hover {
+    transform: scale(1.03);
+}
+
 @media (max-width: 500px) {
 
     /* home responsive */
