@@ -26,6 +26,8 @@ font-family: "Google Sans Flex", sans-serif;
 body {
     background-color: #f7f4ed;
     margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* /------ nav_bar ------/ */
@@ -238,6 +240,7 @@ body {
     min-width: 160px;
 }
 
+
 .contacts-details .sc1,
 .contacts-details .sc2 {
     display: flex;
@@ -413,6 +416,12 @@ body {
     transform: scale(1.03);
 }
 
+.footer {
+    margin-top: 2rem;
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
 @media (max-width: 500px) {
 
     /* home responsive */
@@ -441,7 +450,7 @@ body {
     /* about me responsive */
     .aboutme > * {
         text-align: center;
-        margin-left: -6rem;
+        margin-left: -5rem;
     }
     .aboutme > h1 {
         font-size: 1.5rem;
@@ -452,6 +461,9 @@ body {
     .aboutme > h4 {
         font-size: 0.8rem;
     }
+    .aboutme-img {
+        display: none;
+    }
 
     /*contacts */
     .contacts-container {
@@ -461,8 +473,19 @@ body {
     .contacts-frame {
         display: flex;
         flex-direction: column;
+       border: hidden;
     }
     .contacts-detail {
         font-size: 0.8rem;
+    }
+    .c_img {
+        width: 20rem;
+        margin-left: -1.5rem;
+        margin-bottom: 6rem;
+    }
+
+    /*navbar*/
+    .nav-bar {
+    font-size: 0.8rem;
     }
 }
