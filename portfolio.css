@@ -422,6 +422,16 @@ body {
     text-align: center;
 }
 
+.footer p {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.footer h1 {
+    font-size: 0.8rem;
+    color: #333;
+}
+
 @media (max-width: 500px) {
 
     /* home responsive */
